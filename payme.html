@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132811238-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-132811238-1');
+  </script>
+  <title>Charlie Shih</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta author="Chang-Yuan Shih">
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <style>
+  body,h1 {font-family: "Raleway", sans-serif}
+  body, html {height: 100%}
+  .bgimg {
+      background-image: url('background.jpg');
+      min-height: 100%;
+      background-position: center;
+      background-size: cover;
+  }
+  .paymentImgs {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 500px;
+  }
+  .paymentImg {
+    flex: 0 0 45%;
+    max-width: 45%;
+    height: auto;
+  }
+  </style>
+  </head>
+  <body>
+    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+      <div class="w3-display-topleft w3-padding-large w3-xlarge">
+        <p class="w3-xlarge">
+          <a href="https://csie.ntu.edu.tw/~cyshih" style="text-decoration: none;" ><img src="favicon.png" width="32" height="32"/> cyshih</a>
+        </p>
+      </div>
+      <div class="w3-display-middle w3-center ">
+        <p class="w3-large">/* Pay Me with: */</p>
+        <div class="paymentImgs">
+          <img src="code_venmo.png" class="paymentImg" alt="venmo pic"/>
+          <img src="code_zelle.png" class="paymentImg" alt="venmo pic"/>
+        </div>
+        
+      </div>
+      <div class="w3-display-bottomleft w3-padding-large">
+        Last update: 2021.11
+        <p>Photo: USJ (Universal Studios Japan) 2020</p>
+      </div>
+    </div>
+
+  </body>
+</html>
